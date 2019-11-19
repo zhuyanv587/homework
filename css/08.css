@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 999px;
+	height: 94px;
+	background: whitesmoke;
+	margin: 0 auto;
+}
+.header .logo{
+	float: left;
+	width: 249px;
+	height: 26px;
+	margin-left: 21px;
+	margin-top: 39px;
+}
+.header .search{
+	float: right;
+	width: 228px;
+	height: 28px;
+	margin-top: 39px;
+	margin-right:20px ;
+	background-color: #f1f1f1;
+	border: 1px solid grey;
+}
+.header .search input[type=text]{
+	width: 199px;
+	height: 28px;
+	background-color: #f1f1f1;
+	padding-left: 16px;
+	border: none;
+	box-sizing: border-box;
+	float: left;
+}
+.header .search input[type=submit]{
+	float: right;
+	width: 29px;
+	height: 28px;
+	background: #f1f1f1 url(../img/08-2.png) no-repeat center center;
+	border: none;
+}
+.nav{
+	width: 999px;
+	height: 59px;
+	background: #000000;
+	margin: 0 auto;
+}
+.nav ul{
+	width: 999px;
+	height: 59px;
+	background: black;
+	padding-left: 56px;
+	box-sizing: border-box;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	width: 117px;
+	height: 59px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 59px;
+}
+.aa li{
+	list-style: none;
+	float: left;
+	width: 117px;
+	height: 59px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 59px;
+	border-right: 1px solid gray;
+	box-sizing: border-box;
+}
+.aa li:last-child{
+	border-right: none;
+}
+.aa li a{
+	color: white;
+	text-decoration: none;
+}
+.banner{
+	width: 999px;
+	height: 462px;
+	margin: 0 auto;
+}
+.box{
+	width: 999px;
+	height: 241px;
+	margin: 0 auto;
+}
+.box .box1{
+	float: left;
+	width: 499px;
+	height: 241px;	
+	background: #fbfbfb;
+}
+.box .box1 h3{
+	font: 16px "黑体";
+	margin-top: 35px;
+	margin-left: 20px;
+}
+.bb{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.bb li{
+	font: 10px "黑体";
+	color: #595959;
+	height: 30px;
+	list-style-position: disc;	
+}
+.box .box2{
+	float: right;
+	width: 500px;
+	height: 241px;
+	background: white;
+}
+.box2 .cc{
+	float: left;
+	width: 240px;
+	height: 241px;
+	background: #f1f1f1;
+}
+.one h3{
+	font: 18px "黑体";
+	margin-top: 35px;
+	margin-left: 20px;
+}
+.two{
+	font: 14px "黑体";
+	margin-top: 35px;
+	margin-left: 20px;
+	width: 132px;
+	color: #5f5f5f;
+}
+.three{
+	font: 12px "黑体";
+	margin-top: 33px;
+	margin-left: 20px;
+	width: 196px;
+	color: #8c8c8c;
+}
+.box2 .dd{
+	float: right;
+	width: 260px;
+	height: 241px;
+	background: #fbfbfb;
+}
+.first h3{
+	font: 18px "黑体";
+	margin-top: 35px;
+	margin-left: 20px;
+}
+.first1{
+	font: 12px "黑体";
+	margin-top: 35px;
+	margin-left: 20px;
+	color: #6e6e6e;
+	width: 181px;
+}
+.first2{
+	width: 260px;
+	height: 123px;
+}
+.body{
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.body1{
+	float: right;
+	margin-top: 10px;
+}
+.box3{
+	width: 999px;
+	height: 35px;
+	background: white;
+	margin: 0 auto;
+}
+.box3 h3{
+	margin-top: 30px;
+	font: 18px "黑体";
+	margin-left: 22px;
+}
+.box4{
+	width: 999px;
+	height: 240px;
+	margin: 0 auto;
+}
+.body2{
+	float: left;
+	margin-left: 20px;
+	width: 459px;
+	height: 191px;
+}
+.img{
+	float: left;
+}
+.img1{
+	float: right;
+}
+.f1{
+	margin-top: 20px;
+	font: 12px "黑体";
+	width: 200px;
+	height: 37px;
+	color: #6e6e6e;
+}
+.f2{
+	margin-top: 20px;
+	font: 12px "黑体";
+	width: 200px;
+	height: 37px;
+	color: #6e6e6e;
+}
+.body3{
+	float: right;
+	width: 520px;
+	height: 191px;
+}
+.img2{
+	float: left;
+	margin-left: 40px;
+}
+.f3{
+	margin-top: 20px;
+	font: 12px "黑体";
+	width: 200px;
+	height: 37px;
+	color: #6e6e6e;
+}
+.img3{
+	float: right;
+	margin-right: 20px;
+}
+.f4{
+	margin-top: 20px;
+	font: 12px "黑体";
+	width: 200px;
+	height: 37px;
+	color: #6e6e6e;
+}
+.box5{
+	width: 999px;
+	height: 250px;
+	background: #e5e5e5;
+	margin: 0 auto;
+}
+.body4{
+	float: left;
+	box-sizing: border-box;
+	width: 520px;
+	height: 250px;
+	padding-top: 32px;
+	padding-left: 22px;
+}
+.body4 h3{
+	padding-left: 12px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #666;
+	border-color: #c2c2c2;
+	width:90%;
+	color: #666666;
+}
+.body4 ul{
+	width: 421px;
+	height: 109px;
+}
+.body4 .il .a{
+	float: left;
+	width: 140px;
+	list-style: none;
+	font: 12px "黑体";
+	color: #7d7d7d;
+}
+.body4 .il .b{
+	float: left;
+	width: 140px;
+	list-style: none;
+	font: 12px "黑体";
+	color: #7d7d7d;
+}
+.body4 .il .c{
+	float: left;
+	width: 140px;
+	list-style: none;
+	font: 12px "黑体";
+	color: #7d7d7d;
+}
+.body4 .il .d{
+	float: left;
+	width: 140px;
+	list-style: none;
+	font: 12px "黑体";
+	color: #7d7d7d;
+}
+.body4 .il .e{
+	float: left;
+	list-style: none;
+	font: 12px "黑体";
+	color: #7d7d7d;
+}
+.body7{
+	float: right;
+	width: 479px;
+	height: 250px;
+}
+.body5{
+	padding-top: 32px;
+	padding-left: 22px;
+	box-sizing: border-box;
+	float: left;
+	width: 205px;
+	height: 250px;
+}
+.body5 h3{
+	padding-left: 12px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom:  2px solid #666;
+	border-color: #c2c2c2;
+	width:90%;
+	color: #666666;
+}
+.body5 li{
+	list-style: none;
+	font: 12px "黑体";
+	color: #7d7d7d;
+}
+.body6{
+	padding-top: 32px;
+	padding-left: 22px;
+	box-sizing: border-box;
+	float: right;
+	width: 274px;
+	height: 250px;
+}
+.body6 h3{
+	padding-left: 12px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom:  2px solid #666;
+	border-color: #c2c2c2;
+	width:95%;
+	color: #666666;
+}
+.body6 img{
+	padding-left: 30px;
+}
+.box6{
+	width: 999px;
+	height: 80px;
+	margin: 0 auto;
+}
+.body8{
+	float: left;
+	width: 389px;
+	height: 80px;
+}
+.body8 ul{
+	width: 389px;
+	height: 14px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	padding-top: 35px;
+}
+.body8 li{
+	float: left;
+	list-style: none;
+	font: 10px "黑体";
+	width: 60px;
+	height: 14px;
+	text-align: center;
+	color: #868686;
+}
+.body8 ul li{
+	list-style: none;
+	float: left;
+	width: 65px;
+	height: 14px;
+	text-align: center;
+	border-right: 1px solid #868686;
+	box-sizing: border-box;
+}
+.body8 li:last-child{
+	border-right: none;
+	padding-left: 5px;
+}
+.body9{
+	float: right;
+	width: 610px;
+	height: 80px;
+}
+.body9 .g{
+	padding-top: 25px;
+}
+.body9 .f{
+	font: 10px "黑体";
+	color: #868686;
+}
+.k{
+	float: left;
+}
+.j{
+	float: right;
+	padding-right: 50px;
+	padding-top: 1px;
+}
